@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-	string Arr;
+	string Arr;//일괄 처리용 string
 	
 	start s(Arr);//start 클래스 s 객체 생성
 	s.openSet(Arr);
