@@ -6,7 +6,7 @@ class start {
 	string arr;
 public:
 	start(string org) { arr = org; }
-	void openSet(string& org) { org = open; }
+	void openSet(string& org) { org = open; }//main string 직접 수정
 	void closeSet(string& org) { org += close; }
 };
 class body {
