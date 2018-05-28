@@ -14,7 +14,7 @@ class body {
 	string close = "</body>\n";
 	string arr;
 public:
-	body(string& org) { arr = org; }
+	body(string org) { arr = org; }
 	void openSet(string& org) { org += open; }
 	void closeSet(string& org) { org += close; }
 };
@@ -23,7 +23,7 @@ class h1 {
 	string close = "\t</h1>\n";
 	string arr;
 public:
-	h1(string& org) { arr = org; }
+	h1(string org) { arr = org; }
 	void openSet(string& org) { org += open; }
 	void closeSet(string& org) { org += close; }
 };
