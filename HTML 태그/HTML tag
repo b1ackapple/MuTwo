@@ -29,4 +29,7 @@ HTML 태그
 버튼
 <button></button>
 
+미디어 관련
+<img src="원하는 사진의 주소" width="숫자" height="숫자"/> //이미지 업로드
+<figcaption></figcaption> //이미지 설명
 추가바람
