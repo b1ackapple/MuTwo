@@ -23,15 +23,15 @@ int main(void)
 	userinput u;//userinput 클래스 u 객체 생성
 	u.setArr(Arr);
 
+	
+	
 	h.closeSet(Arr);
+	image i;
+	i.openSet(Arr);
 	b.closeSet(Arr);
 	s.closeSet(Arr);
 	cout << Arr;
 
-	ofstream file;
-	file.open("test.html");
-	file << Arr;
-	file.close();
-
+	
 	return 0;
 }
