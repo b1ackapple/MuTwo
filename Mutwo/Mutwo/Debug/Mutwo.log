@@ -1,5 +1,0 @@
-﻿  main.cpp
-c:\users\정진우\desktop\동고비\수업\오픈소스\팀프로젝트\mutwo\mutwo\mutwo\header.h(70): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdlib.h(1323): note: 'itoa' 선언을 참조하십시오.
-  Mutwo.vcxproj -> C:\Users\정진우\Desktop\동고비\수업\오픈소스\팀프로젝트\MuTwo\Mutwo\Debug\Mutwo.exe
-  Mutwo.vcxproj -> C:\Users\정진우\Desktop\동고비\수업\오픈소스\팀프로젝트\MuTwo\Mutwo\Debug\Mutwo.pdb (Partial PDB)
