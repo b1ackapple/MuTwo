@@ -11,7 +11,6 @@ class hnumber {
 	string input;
 	string close;
 	string arr;
-
 public:
 	hnumber();
 	void openSet(string &org) { org += open; }
