@@ -4,23 +4,23 @@
 using namespace std;
 
 #include "header.h"
-
+#include "Font.h"
 
 
 int main(void)
 {
-	string Arr;//ÀÏ°ı Ã³¸®¿ë string
+	string Arr;//ì¼ê´„ ì²˜ë¦¬ìš© string
 
-	start s(Arr);//start Å¬·¡½º s °´Ã¼ »ı¼º
+	start s(Arr);//start í´ë˜ìŠ¤ s ê°ì²´ ìƒì„±
 	s.openSet(Arr);
 
-	body b(Arr);//body Å¬·¡½º b °´Ã¼ »ı¼º
+	body b(Arr);//body í´ë˜ìŠ¤ b ê°ì²´ ìƒì„±
 	b.openSet(Arr);
 
-	hnumber h;//h1 Å¬·¡½º h °´Ã¼ »ı¼º
+	hnumber h;//h1 í´ë˜ìŠ¤ h ê°ì²´ ìƒì„±
 	h.openSet(Arr);
 
-	userinput u;//userinput Å¬·¡½º u °´Ã¼ »ı¼º
+	userinput u;//userinput í´ë˜ìŠ¤ u ê°ì²´ ìƒì„±
 	u.setArr(Arr);
 
 	
