@@ -19,7 +19,7 @@ public:
 
 hnumber::hnumber()
 {
-	cout << "숫자 입력 (1~6) : ";
+	cout << "글자크기를 입력하세요 (1~6) : ";
 	getline(cin, input);
 	open = "<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
