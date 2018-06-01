@@ -11,7 +11,7 @@ class start {
 	string arr;
 public:
 	start(string org) { arr = org; }
-	void openSet(string& org) { org = open; }//main string Á÷Á¢ ¼öÁ¤
+	void openSet(string& org) { org = open; }//main string ì§ì ‘ ìˆ˜ì •
 	void closeSet(string& org) { org += close; }
 };
 class body {
@@ -23,31 +23,15 @@ public:
 	void openSet(string& org) { org += open; }
 	void closeSet(string& org) { org += close; }
 };
-class hnumber {
-	string open;
-	string input;
-	string close;
-	string arr;
 
-public:
-	hnumber();
-	void openSet(string &org) { org += open; }
-	void closeSet(string &org) { org += close; }
-
-}; class userinput {
+class userinput {
 	string input;
 public:
-	userinput() { cout << "ÇÏ°í ½ÍÀº ¸» "; getline(cin, input); }
+	userinput() { cout << "í•˜ê³  ì‹¶ì€ ë§ "; getline(cin, input); }
 	void setArr(string& org) { org += input; }
 
 };
-hnumber::hnumber()
-{
-	cout << "¼ıÀÚ ÀÔ·Â (1~6) : ";
-	getline(cin, input);
-	open = "<h" + input + ">\t";
-	close = "\t</h" + input + ">\n";
-}
+
 class image {
 	string address;
 	string open;
@@ -62,9 +46,9 @@ image::image()
 {
 	char buffer1[100];
 	char buffer2[100];
-	cout << "ÁÖ¼Ò ÀÔ·Â : ";
+	cout << "ì£¼ì†Œ ì…ë ¥ : ";
 	getline(cin, address);
-	cout << "³ĞÀÌ Æø ÀÔ·Â : ";
+	cout << "ë„“ì´ í­ ì…ë ¥ : ";
 	cin >> width >> height;
 
 	open = "<img src = \"" + address + "\" width = \"" + itoa(width, buffer1, 10) + "\" height = \"" + itoa(height, buffer2, 10) + "\"/>\n";
