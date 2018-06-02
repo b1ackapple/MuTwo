@@ -1,4 +1,0 @@
-﻿  소스.cpp
-c:\users\win10se\source\repos\mutwo_ver1.0\mutwo_ver1.0\image.h(27): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 'itoa' 선언을 참조하십시오.
-  Mutwo_ver1.0.vcxproj -> C:\Users\win10se\source\repos\Mutwo_ver1.0\Debug\Mutwo_ver1.0.exe
