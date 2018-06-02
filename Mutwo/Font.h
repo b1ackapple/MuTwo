@@ -1,11 +1,6 @@
 #pragma once
 
-#include <iostream>
-#include <fstream>
-#include <string>
-
 using namespace std;
-
 class h_number {
 	string open;
 	string input;

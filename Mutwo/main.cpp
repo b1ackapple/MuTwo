@@ -6,6 +6,7 @@ using namespace std;
 #include "header.h"
 #include "Font.h"
 #include "Image.h"
+#include "file.h"
 
 
 int main(void)
@@ -31,6 +32,8 @@ int main(void)
 	b.closeSet(Arr);
 	s.closeSet(Arr);
 	cout << Arr;
+
+	mk_file f(Arr);
 
 
 	return 0;
