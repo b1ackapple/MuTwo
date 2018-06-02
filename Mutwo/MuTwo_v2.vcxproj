@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="Image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{130F80BF-063C-4518-8DBB-01942384D9E5}</ProjectGuid>
@@ -97,14 +105,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="mutwo_ver1.0\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="mutwo_ver1.0\Font.h" />
-    <ClInclude Include="mutwo_ver1.0\header.h" />
-    <ClInclude Include="mutwo_ver1.0\Image.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
