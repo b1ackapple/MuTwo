@@ -11,7 +11,7 @@ public:
 
 h_number::h_number(string &org)
 {
-	cout << "Å©±âÀÔ·Â (1~6) : ";
+	cout << "ê¸€ì  (1~6) : ";
 	getline(cin, input);
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
