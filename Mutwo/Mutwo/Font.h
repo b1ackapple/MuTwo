@@ -12,7 +12,7 @@ public:
 
 h_number::h_number()
 {
-	cout << "ũ���Է� (1~6) : ";
+	cout << "글자크기 입력 (1~6) : ";
 	getline(cin, input);
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
