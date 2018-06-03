@@ -6,9 +6,10 @@ class image {
 	string width;
 	string height;
 public:
-	image(string &org);
+	image();
+	void openSet(string &org) { org += open; }
 };
-image::image(string &org)
+image::image()
 {
 
 	cout << "이미지 주소를 입력하세요 : ";
@@ -18,5 +19,5 @@ image::image(string &org)
 	cout << "높이를 입력하세요 : ";
 	getline(cin, height);
 	open = "\t<img src = \"" + address + "\" width = \"" + width + "\" height = \"" + height + "\"/>\n";
-	org += open;
+	
 }
