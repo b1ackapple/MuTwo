@@ -39,7 +39,7 @@ public:
 class userinput {
 	string input;
 public:
-	userinput() { cout << "하고 싶은 말 "; getline(cin, input); }
+	userinput() { cout << "넣고 싶은 단어들을 입력하세요: "; getline(cin, input); }
 	void setArr(string& org) { org += input; }
 
 };

@@ -23,7 +23,7 @@ h_number::h_number()
 {
 	cout << "글자크기를 입력하세요 (1~6) : ";
 	getline(cin, input);
-	open = "<h" + input + ">\t";
+	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
 }
 
