@@ -11,7 +11,7 @@ public:
 
 h_number::h_number(string &org)
 {
-	cout << "글자  (1~6) : ";
+	cout << "글자 크기 (1~6) : ";
 	getline(cin, input);
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
