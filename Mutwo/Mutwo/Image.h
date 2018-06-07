@@ -1,19 +1,19 @@
 #pragma once
-
+#include <cstdio>
 class image {
 	string address;
 	string open;
 	string width;
 	string height;
 public:
-	image();
+	void Setimage(string &org);
 	void openSet(string &org) { org += open; }
 };
-image::image()
+void image::Setimage(string &org)
 {
-
 	cout << "이미지 주소를 입력하세요 : ";
-	getline(cin, address);
+	cin.ignore();
+	getline(cin,address);
 	cout << "가로크기를 입력하세요 : ";
 	getline(cin, width);
 	cout << "높이를 입력하세요 : ";
