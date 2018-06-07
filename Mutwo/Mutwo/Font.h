@@ -13,6 +13,7 @@ public:
 void h_number::Setfont(string &org)
 {
 	cout << "select font(1~6) : ";
+	cin.ignore();
 	getline(cin, input);
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";

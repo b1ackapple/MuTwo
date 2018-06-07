@@ -9,6 +9,7 @@ public:
 
 void mk_file::Filename(string org) {
 	cout << "파일 이름을 입력하세요 : ";
+	cin.ignore();
 	getline(cin, name);
 	name = name + ".html";//파일 이름에 확장자 명 삽입 
 	infile.open(name);

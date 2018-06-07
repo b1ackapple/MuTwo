@@ -4,6 +4,7 @@
 #include <Windows.h>
 using namespace std;
 
+
 #include "header.h"
 #include "Font.h"
 #include "Image.h"
@@ -53,6 +54,7 @@ int main(void)
 			break;
 		case 2:
 			i.Setimage(Arr);
+			i.openSet(Arr);
 			break;
 		case 3:
 			u.ainput(Arr);
