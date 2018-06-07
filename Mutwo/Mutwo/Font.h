@@ -5,16 +5,16 @@ class h_number {
 	string input;
 	string close;
 public:
-	h_number();
 	void openSet(string &org) { org += open; }
 	void closeSet(string &org) { org += close; }
+	void Setfont(string &org);
 };
 
-h_number::h_number()
+void h_number::Setfont(string &org)
 {
-	cout << "글자크기 입력 (1~6) : ";
+	cout << "select font(1~6) : ";
 	getline(cin, input);
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
-	
+	void openSet(string &org);
 }

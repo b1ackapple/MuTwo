@@ -28,10 +28,11 @@ public:
 class userinput {
 	string input;
 public:
-	userinput(string& org) {
-		cout << "쓰고 싶은 내용을 입력하세요 : ";
-		getline(cin, input);
-		org += input;
-	}
-
+	void ainput(string& org);
 };
+
+void userinput::ainput(string& org) {
+	cout << "쓰고 싶은 내용을 입력하세요 : ";
+	getline(cin, input);
+	org += input;
+}
