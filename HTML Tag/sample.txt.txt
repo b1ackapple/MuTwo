@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <a href="https://www.kw.ac.kr" target="new">
+    광운대학교
+  </a><br>
+    <!--href링크기능 blank는 새창띄움 -->
+  <a href="https://www.kw.ac.kr" target="new">
+    <image src="http://i.imgur.com/8NwQLFS.png" />
+  </a>
+</body>
+</html>
