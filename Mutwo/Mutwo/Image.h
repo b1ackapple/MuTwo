@@ -1,15 +1,15 @@
 #pragma once
-#include <cstdio>
+
 class image {
 	string address;
 	string open;
 	string width;
 	string height;
 public:
-	void Setimage(string &org);
+	void Setimage();
 	void openSet(string &org) { org += open; }
 };
-void image::Setimage(string &org)
+void image::Setimage()
 {
 	cout << "이미지 주소를 입력하세요 : ";
 	cin.ignore();

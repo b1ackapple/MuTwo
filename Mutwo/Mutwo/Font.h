@@ -7,15 +7,16 @@ class h_number {
 public:
 	void openSet(string &org) { org += open; }
 	void closeSet(string &org) { org += close; }
-	void Setfont(string &org);
+	void Setfont();
 };
 
-void h_number::Setfont(string &org)
+void h_number::Setfont()
 {
 	cout << "select font(1~6) : ";
 	cin.ignore();
 	getline(cin, input);
+	system("Cls");
 	open = "\t<h" + input + ">\t";
 	close = "\t</h" + input + ">\n";
-	void openSet(string &org);
+	
 }
