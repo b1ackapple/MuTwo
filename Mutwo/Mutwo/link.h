@@ -10,6 +10,7 @@ class a_link {
 public:
 	void openSet(string &org);
 	void finalSet(string &org) { org += last; }
+	void closeSet(string &org) { org += close; }
 	
 };
 void a_link::openSet(string &org)

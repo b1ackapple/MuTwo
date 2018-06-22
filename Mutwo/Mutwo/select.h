@@ -90,7 +90,7 @@ void choose::secound_select()
 }
 void choose::close_tag()
 {
-	cout << "1. font\n";
+	cout << "1. font\n2. link\n";
 	cin >> number;
 	system("Cls");
 
@@ -98,6 +98,9 @@ void choose::close_tag()
 	{
 	case 1:
 		h.closeSet(arr);
+		first_select();
+	case 2:
+		a.closeSet(arr);
 		first_select();
 	}
 }
